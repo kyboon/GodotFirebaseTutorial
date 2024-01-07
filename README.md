@@ -1,5 +1,6 @@
 # Godot Firebase Tutorial sample project
-**This is a sample project for the tutorial:**
+**This is a sample project for the tutorial:** https://youtu.be/LnQG08Sbl7c
+
 The project is made on Godot 4.2.
 
 ### Starter template
