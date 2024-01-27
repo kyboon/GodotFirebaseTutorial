@@ -11,6 +11,6 @@ This is the end result of the tutorial. If you want to run it, remember to fill 
 
 ## Troubleshooting
 If the project doesn't work for you, make sure that:
-- The .env file is filled with your parameters (you can find it in your project settings on firebase console)
+- The .env file is filled with your parameters (you can find it in your project settings on firebase console), and is in the correct folder (addons/godot-firebase/)
 - You have Authentication (email/password) enabled on the firebase console
 - You have a Firestore database created on the firebase console
