@@ -17,6 +17,7 @@ If the project doesn't work for you, make sure that:
 - The .env file is filled with your parameters (you can find it in your project settings on firebase console), and is in the correct folder (addons/godot-firebase/)
 - You have Authentication (email/password) enabled on the firebase console
 - You have a Firestore database created on the firebase console
+  
 For the "Sign in with Google" tutorial, make sure that:
 - You have the "Google provider" enabled in the sign in method, on the Firebase console.
 - You have the consent screen setup and published, on the Google cloud console (API & services).
