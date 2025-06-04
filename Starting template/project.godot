@@ -12,8 +12,12 @@ config_version=5
 
 config/name="FirebaseTutorial"
 run/main_scene="res://Authentication.tscn"
-config/features=PackedStringArray("4.2", "Mobile")
+config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="FirebaseTutorial"
 
 [rendering]
 
