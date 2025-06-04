@@ -1,10 +1,10 @@
 # Godot Firebase Tutorial sample project
 **This is a sample project for the tutorial:**
-- Basic authentication & cloud save: https://youtu.be/LnQG08Sbl7c
+- Basic authentication & cloud save: https://youtu.be/LnQG08Sbl7c [(Code Updated)](Cloud save update.md)
 - Sign in with Google: https://youtu.be/CFJ6YujvPR8
 - Realtime database: https://youtu.be/iE67zJ4_4BQ
 
-The project is made on Godot 4.2, using the GodotFirebase plugin (https://github.com/GodotNuts/GodotFirebase).
+The project is made on Godot 4.4, using the GodotFirebase plugin (https://github.com/GodotNuts/GodotFirebase) v6.0.5.
 
 ### Starter template
 The starter template contains a simple Game.tscn and Authentication.tscn scene for you to follow the tutorial.
