@@ -1,7 +1,8 @@
 ## Cloud save update
-Please note that due to a major update from the GodotFirebase, some changes has been made to the Game.gd code in *Completed project*. More details from GodotFirebase repo: https://github.com/GodotNuts/GodotFirebase/wiki/Upgrade-Guide-to-4.x-version-2#upgrade-guide
+Please note that due to a major update from the GodotFirebase, some changes has been made to the [Game.gd](https://github.com/kyboon/GodotFirebaseTutorial/blob/master/Completed%20project/Game.gd) code in *Completed project*. More details from GodotFirebase repo: https://github.com/GodotNuts/GodotFirebase/wiki/Upgrade-Guide-to-4.x-version-2#upgrade-guide
 
 ### Old code
+```GDScript
 func save_data():
 	var auth = Firebase.Auth.auth
 	if auth.localid:
@@ -27,8 +28,9 @@ func load_data():
 				petting_count = document.doc_fields.petting_count
 		else:
 			print(finished_task.error)
-
+```
 ### New code
+```GDScript
 func save_data():
 	var auth = Firebase.Auth.auth
 	if auth.localid:
@@ -60,3 +62,4 @@ func load_data():
 			print(document.error)
 		else:
 			print("No document found")
+```
