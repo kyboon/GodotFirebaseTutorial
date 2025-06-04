@@ -1,13 +1,13 @@
 [gd_scene load_steps=6 format=3 uid="uid://cr8xh3kc8woma"]
 
-[ext_resource type="Script" path="res://Game.gd" id="1_5f847"]
+[ext_resource type="Script" uid="uid://bh1r5xxhbv1pb" path="res://Game.gd" id="1_5f847"]
 [ext_resource type="Texture2D" uid="uid://c2l8hdtcna76h" path="res://panda.png" id="1_6lbql"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mshum"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4rcdn"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3ncuk"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4rcdn"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mshum"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -42,9 +42,9 @@ horizontal_alignment = 1
 
 [node name="PandaButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_mshum")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_3ncuk")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_4rcdn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_3ncuk")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_mshum")
 icon = ExtResource("1_6lbql")
 
 [node name="PandaNameLineEdit" type="LineEdit" parent="VBoxContainer"]
