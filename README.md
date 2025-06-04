@@ -1,6 +1,6 @@
 # Godot Firebase Tutorial sample project
 **This is a sample project for the tutorial:**
-- Basic authentication & cloud save: https://youtu.be/LnQG08Sbl7c [(Code Updated)](Cloud save update.md)
+- Basic authentication & cloud save: https://youtu.be/LnQG08Sbl7c ([Cloud save update.md](https://github.com/kyboon/GodotFirebaseTutorial/blob/master/Cloud%20save%20update.md))
 - Sign in with Google: https://youtu.be/CFJ6YujvPR8
 - Realtime database: https://youtu.be/iE67zJ4_4BQ
 
